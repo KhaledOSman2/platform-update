@@ -1,0 +1,114 @@
+[2025-04-28T05:26:49.732Z] MongoPoolClearedError: Connection pool for ac-f3fqyzy-shard-00-01.y3a3lqt.mongodb.net:27017 was cleared because another operation failed with: "connection <monitor> to 159.41.65.136:27017 closed"
+    at C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cmap\connection_pool.js:357:77
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-04-28T05:26:50.832Z] MongoNetworkError: AggregateError has an empty errors array. Please check the `cause` property for more information.
+    at TLSSocket.<anonymous> (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cmap\connect.js:285:44)
+    at Object.onceWrapper (node:events:628:26)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-04-28T05:26:58.252Z] MongoNetworkError: AggregateError has an empty errors array. Please check the `cause` property for more information.
+    at TLSSocket.<anonymous> (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cmap\connect.js:285:44)
+    at Object.onceWrapper (node:events:628:26)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-04-28T05:26:59.970Z] MongoNetworkError: AggregateError has an empty errors array. Please check the `cause` property for more information.
+    at TLSSocket.<anonymous> (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cmap\connect.js:285:44)
+    at Object.onceWrapper (node:events:628:26)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2025-04-28T05:27:00.734Z] MongoPoolClearedError: Connection pool for ac-f3fqyzy-shard-00-01.y3a3lqt.mongodb.net:27017 was cleared because another operation failed with: "connection <monitor> to 159.41.65.136:27017 closed"
+    at C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cmap\connection_pool.js:357:77
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-04-28T05:27:44.076Z] MongoServerSelectionError: AggregateError has an empty errors array. Please check the `cause` property for more information.
+    at Topology.selectServer (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\sdam\topology.js:321:38)
+    at async tryOperation (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\operations\execute_operation.js:145:18)
+    at async executeOperation (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\operations\execute_operation.js:75:16)
+    at async FindCursor._initialize (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\find_cursor.js:61:26)
+    at async FindCursor.cursorInit (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\abstract_cursor.js:633:27)
+    at async FindCursor.fetchBatch (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\abstract_cursor.js:667:13)
+    at async FindCursor.next (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\abstract_cursor.js:347:17)
+    at async [Symbol.asyncIterator] (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\abstract_cursor.js:255:34)
+    at async FindCursor.toArray (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongodb\lib\cursor\abstract_cursor.js:427:26)
+    at async model.Query._find (C:\Users\Alyarmouk\Desktop\the-platform-beta\node_modules\mongoose\lib\query.js:2381:14)
+[2025-04-28T06:15:52.606Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:15:57.596Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:50:00.675Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-04-28T06:50:05.673Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:51:25.968Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:52:04.031Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-04-28T06:52:09.037Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:57:39.474Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T06:57:44.478Z] [MongoDB Connection Error]: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[2025-04-28T08:06:25.420Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-04-28T08:06:38.714Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-04-28T08:06:56.863Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-04-28T08:44:24.213Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T06:04:32.842Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T07:02:34.111Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T07:02:41.370Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T08:14:20.765Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T08:15:15.929Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-01T08:29:58.577Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T10:39:53.370Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:03:56.597Z] [MongoDB Connection Error]: Server selection timed out after 30000 ms
+[2025-05-10T14:04:25.110Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:10:29.134Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:11:09.644Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:12:13.847Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:12:56.857Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:13:12.915Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:13:48.652Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:14:34.724Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:19:04.969Z] [MongoDB Connection Error]: Socket 'secureConnect' timed out after 32282ms (connectTimeoutMS: 30000)
+[2025-05-10T14:19:32.940Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:20:08.598Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:20:58.863Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:21:32.811Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:22:37.985Z] [MongoDB Connection Error]: Socket 'secureConnect' timed out after 30429ms (connectTimeoutMS: 30000)
+[2025-05-10T14:24:28.827Z] [MongoDB Connection Error]: Server selection timed out after 30000 ms
+[2025-05-10T14:24:36.548Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:33:03.499Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:39:12.031Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:50:24.907Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T14:51:00.061Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T15:01:34.241Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T15:05:59.817Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T15:07:21.067Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T15:07:34.273Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T15:29:58.264Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T21:54:47.104Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T21:55:22.891Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T21:57:19.226Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:02:32.605Z] [MongoDB Connection Error]: querySrv ETIMEOUT _mongodb._tcp.cluster0.y3a3lqt.mongodb.net
+[2025-05-10T22:04:31.193Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:06:10.565Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:06:48.234Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:07:58.447Z] [MongoDB Connection Error]: Connection to ac-f3fqyzy-shard-00-01.y3a3lqt.mongodb.net:27017 interrupted due to server monitor timeout
+[2025-05-10T22:11:50.868Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:13:39.344Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:14:14.856Z] [MongoDB Connection Error]: Server selection timed out after 30000 ms
+[2025-05-10T22:15:55.679Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:16:31.253Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:17:15.071Z] [MongoDB Connection Error]: Server selection timed out after 30000 ms
+[2025-05-10T22:20:30.487Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:20:44.230Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T22:21:43.516Z] [MongoDB Connection Error]: Server selection timed out after 30000 ms
+[2025-05-10T22:21:54.118Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T23:00:58.517Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-10T23:02:02.956Z] [MongoDB Connection Error]: Socket 'secureConnect' timed out after 30212ms (connectTimeoutMS: 30000)
+[2025-05-11T09:32:04.875Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T09:39:36.322Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:47:03.884Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:47:40.772Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:48:17.306Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:48:55.702Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:49:32.431Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T15:49:59.236Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T16:08:53.931Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
+[2025-05-11T22:21:02.508Z] [MongoDB Connection Error]: AggregateError has an empty errors array. Please check the `cause` property for more information.
