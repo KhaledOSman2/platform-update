@@ -388,7 +388,7 @@ app.put('/api/users/:id', authenticateToken, async (req, res, next) => {
         await user.save();
 
         if (!req.user.isAdmin && req.user.id === userId) {
-            res.json({ logout: true, message: 'تم تحديث البيانات بنجاح. الرجاء تسجيل الدخول مرة أخرى.' });
+            res.json({ message: 'تم تحديث البيانات بنجاح. الرجاء تسجيل الدخول مرة أخرى.' });
         } else {
             res.json({ message: 'تم تحديث البيانات بنجاح.' });
         }
